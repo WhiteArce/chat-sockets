@@ -9,7 +9,7 @@ let actions = document.getElementById('actions');
 
 buttonSend.addEventListener('click', () => {
     if (username.value == '' || message.value == '') {
-        alert("Please insert data");
+        alert("Please insert the username or a message instead");
     }else{
     socket.emit('chat-message', {
         username: username.value,
