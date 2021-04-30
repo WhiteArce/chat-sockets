@@ -3,27 +3,35 @@
    margin: 30px auto;
    border: 1px solid #ddd;
    box-shadow: 1px 3px 5px black;
+   padding-bottom: 15px;
+   padding-left: 10px;
+  
 }
 #chat-window{
-    padding: 14px 0;
+    padding: 14px 5px;
     margin: 0 20px;
-    border-bottom: 1px solid #e9e9e9;
+    border-bottom: 1px solid #e9e9e9;  
     color: #555;
+    
 }
 .input{
-    border: 1px solid lightgray;
-    border-radius: 6px 6px 6px 6px;
+    border: 0 solid lightgray;
+    border-bottom: 1px solid gray;
+    height: 25px;
+    padding-top: 25px;
 }
 .input:hover{
     outline: none;
-    border: 1px solid lightblue;
+    border: 0;
+    border-bottom: 1px solid black;
    
 }
 .input:focus{
     outline: none;
-    border: 1px solid lightskyblue;
-    box-shadow: 1 1 5px lightskyblue;
+    border: 0;
+    border-bottom: 1.5px solid black;
 }
+
 
 .btn{
     border: 0;
